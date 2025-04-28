@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Website Task</title> 
+    <script src="https://cdn.tailwindcss.com"></script> 
+</head> 
+<body class="bg-gray-100 flex flex-col min-h-screen"> <!-- Updated body -->
+
+    <!-- Header -->
+    <header class="bg-green-500 text-white p-4"> 
+        <div class="container mx-auto flex flex-col items-center"> 
+            <h1 class="text-xl font-bold text-center">Welcome to Your Website Task</h1> 
+            <nav class="mt-2"> 
+                <ul class="flex space-x-4"> 
+                    <li><a href="#" class="hover:underline">Home</a></li> 
+                    <li><a href="#" class="hover:underline">About</a></li> 
+                    <li><a href="#" class="hover:underline">Contact</a></li> 
+                </ul> 
+            </nav> 
+        </div> 
+    </header> 
+
+    <!-- Main Content -->
+    <main class="container mx-auto py-8 mb-36 flex-1"> <!-- Added flex-1 to push footer -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4"> 
+            <div class="space-y-4"> 
+                <div class="bg-white p-4 rounded shadow"> 
+                    <h2 class="text-green-500 font-bold">About Us</h2> 
+                    <p>We are dedicated to creating beautiful and functional designs that make the web a better place.</p> 
+                </div> 
+                <div class="bg-white p-4 rounded shadow"> 
+                    <h2 class="text-green-500 font-bold">Responsive Design</h2> 
+                    <p>Ensuring your webpage looks great on all devices, from desktops to mobile phones.</p> 
+                </div> 
+            </div> 
+            <div class="bg-white p-4 rounded shadow"> 
+                <h2 class="text-green-500 font-bold">Box Model</h2> 
+                <p>The CSS box model describes the rectangular boxes generated for elements. It includes margins, borders, padding, and the actual content.</p> 
+            </div> 
+        </div> 
+    </main> 
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-10 mt-auto"> <!-- Updated footer -->
+        <div class="container mx-auto text-center">
+            <p>
+                Created by Mukesh | Follow us on 
+                <a href="#" class="hover:underline">Instagram</a> | 
+                <a href="#" class="hover:underline">Twitter</a> | 
+                <a href="#" class="hover:underline">LinkedIn</a>
+            </p>
+        </div> 
+    </footer> 
+
+</body> 
+</html>
